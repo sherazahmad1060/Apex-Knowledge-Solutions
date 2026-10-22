@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment variables & secrets (NEVER commit real keys)
+.env
+*.env.local
+
+# FAISS Vector Store local index
+vector_store/
+
+# User uploads & temporary files
+data/uploads/
+*.tmp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
